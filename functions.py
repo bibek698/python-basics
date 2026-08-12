@@ -18,3 +18,14 @@ print(string_representation)
 time_list = [12, 2, 32, 19, 57, 22, 14]
 print(sorted(time_list))
 print(time_list)
+#min() & max()
+time_list = [12, 2, 32, 19, 57, 22, 14]
+print(min(time_list))
+print(max(time_list))
+
+def lucky_number(name):
+    number = len(name) * 9
+    print("Hello " + name + ". Your lucky number is " + str(number))
+
+lucky_number("Bibek")
+lucky_number("Raj")
