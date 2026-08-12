@@ -5,3 +5,7 @@ def greeting(name,department):
 greeting("Bibek", "Engineering")
 
 greeting("Biraj", "Marketing")
+
+greeting("Bibek", "Engineering")
+
+greeting("Biraj", "Marketing")
