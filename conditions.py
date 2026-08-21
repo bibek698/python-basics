@@ -198,3 +198,14 @@ print(16 <= 4**2 or 9**(0.5) != 3)  # True or False = True
 
 # False or False returns False
 print("B_name" > "C_name" or "B_name" < "A_name") # False or False = False
+
+# Test Example 1:
+
+x = 2*3 > 6
+print("The value of x is:")
+print(x)
+
+print("")  # Prints a blank line
+
+print("The inverse value of x is:")
+print(not x)
