@@ -209,3 +209,7 @@ print("")  # Prints a blank line
 
 print("The inverse value of x is:")
 print(not x)
+
+def hint_username(username):
+    if len(username) < 3:
+        print("Invalid username. Must be at least 3 characters long")
