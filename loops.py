@@ -31,3 +31,7 @@ while x < 10:
 
 print(sum, product)
 #Ouput 45 1
+
+#infinite loop 
+while x %2 == 0:
+    x = x / 2
