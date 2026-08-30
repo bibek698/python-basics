@@ -15,3 +15,18 @@ for num in number:
     length += 1
 print("Sum:", str(sum))
 print("Average:", str(sum / length))
+
+#if we do not want to start for loop with 0 we use
+
+product = 1
+for n in range(1,10):
+  product = product * n
+
+print(product)
+
+#if we want to increase the value of n by 10 we use
+def to_celsius(x):
+  return (x-32)*5/9
+
+for x in range(0,101,10):
+  print(x, to_celsius(x))
