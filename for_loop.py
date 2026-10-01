@@ -53,3 +53,9 @@ for element1 in long_list:
 greeting = 'Hello'
 for char in greeting:
 	print(char)
+
+greeting = 'Hello'
+index - 0
+while index < len(greeting):
+   print(greeting[index])
+   index += 1
