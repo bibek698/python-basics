@@ -22,3 +22,16 @@ def format_phone(phonenum):
     return area_code + " " + exchange + "-" + line
 
 format_phone('2025551212')
+
+def greet_friends(friends):
+    for friend in friends:
+        print("Hi " + friend)
+
+greet_friends(['Taylor', 'Luisa', 'Jamaal', 'Eli'])
+
+
+def greet_friends(friends):
+    for friend in friends:
+        print("Hi" + friend)
+
+greet_friends("Bibek")  # This will print each character in the string "Bibek" on a new line
