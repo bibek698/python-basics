@@ -48,3 +48,8 @@ for element in long_list:
 for element1 in long_list:
   for element2 in long_list:
     do_something(element1, element2)
+
+
+greeting = 'Hello'
+for char in greeting:
+	print(char)
