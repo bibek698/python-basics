@@ -5,3 +5,12 @@ print(x[1:3])  # Output: ['are', 'learning']
 'not' in x  # Output: False
 print(len(x))  # Output: 5
 print(x[:2])  # Output: ['we', 'are']
+print(x[2:])  # Output: ['learning', 'Python', 'programming']
+
+
+fruits = ["Pineapple", "Banana", "Apple", "Melon"]
+fruits.append("Kiwi")
+
+fruits.insert(0, "Orange")
+print(fruits)
+fruits.remove("Melon")
